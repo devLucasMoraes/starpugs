@@ -46,6 +46,27 @@
         margin-top: 0.5rem;
         color: $mediumSecondary;
         opacity: 0.8;
+        width: max-content;
+      }
+
+      .btn {
+        display: inline-block;
+        border: solid $secondary;
+        padding: 1rem 1rem;
+        font-family: $textFont;
+        background-color: $primary;
+        color: $secondary;
+        font-weight: 700;
+        border-radius: 20px;
+        font-size: 1.4rem;
+        width: max-content;
+        margin: 1.2rem 0;
+
+        &:hover {
+          cursor: pointer;
+          background-color: $secondary;
+          color: $primary;
+        }
       }
 
       @include device(notebook) {

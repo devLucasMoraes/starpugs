@@ -24,5 +24,25 @@
 
   h4 {
     font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 1.2rem 6rem;
+    font-family: $textFont;
+    background-color: $primary;
+    color: $lightSecondary;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 1.6rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($lightPrimary, 3);
+    }
   }
 }

@@ -13,7 +13,7 @@ export default function Header() {
           proporcionar uma experiência única, onde você e seu pet serão
           recebidos com todo o carinho e atenção que merecem.
         </p>
-        <button className="btn btn-primary">Conheça</button>
+        <button className={styles.btn}>Conheça</button>
       </div>
     </header>
   );

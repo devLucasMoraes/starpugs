@@ -23,6 +23,7 @@ export default function Product({
       <h2>{title}</h2>
       <h3>{roast}</h3>
       <h4>R$ {price}</h4>
+      <button className={styles.btn}>Conheça</button>
     </div>
   );
 }

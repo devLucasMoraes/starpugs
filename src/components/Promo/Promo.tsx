@@ -5,18 +5,26 @@ export default function Promo() {
   return (
     <section id="promo" className={styles.promo}>
       <div className={styles.content}>
-        <h2 className="title dark-bg">Conheça nossa nova linha</h2>
-        <p className="dark-bg">
-          Canecas, almofadas e muitas opções de cafés deliciosos para você!
-        </p>
+        <div className={styles.div1}>
+          <h2 className="title light-bg">Conheça nossa nova linha</h2>
+          <p>
+            Canecas, almofadas e muitas opções de cafés deliciosos para você!
+          </p>
+          <button className={styles.btn}>Saiba mais</button>
+        </div>
+        <div className={styles.div2}>
+          <Image
+            className={styles.image}
+            src="/caneca.png"
+            alt="caneca starpugs"
+            width={502}
+            height={474}
+          />
+          <h2>Caneca StarPugs</h2>
+        </div>
       </div>
-      <Image
-        className={styles.image}
-        src="/caneca.png"
-        alt="caneca starpugs"
-        width={502}
-        height={474}
-      />
+
+      <button className={styles.btn}>Compre agora!</button>
     </section>
   );
 }

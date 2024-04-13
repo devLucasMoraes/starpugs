@@ -12,6 +12,7 @@ export default function Footer() {
           </h2>
           <h3 className="p">Seu refúgio pet-friendly.</h3>
           <SocialLinks />
+          <button className={styles.btn}>Fale Conosco</button>
         </div>
         <div className={styles.column2}>
           <h2 className="p">Faça-nos uma Visita</h2>
